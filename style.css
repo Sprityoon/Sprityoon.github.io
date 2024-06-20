@@ -63,7 +63,7 @@ body, html {
 }
 
 .dialogue-text {
-    white-space: pre-wrap;
+    white-space: now-wrap;
     overflow: hidden;
     border-right: 0.15em solid orange;
 }
