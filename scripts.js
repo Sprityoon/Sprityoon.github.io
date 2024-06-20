@@ -23,14 +23,14 @@ function typeDialogue(dialogue, callback) {
     let i = 0;
     dialogueBox.innerHTML = dialogue;
     
-/*    dialogueBox.innerHTML = '';
+    dialogueBox.innerHTML = '';
     const typingElement = document.createElement('span');
     typingElement.classList.add('typing');
-    dialogueBox.appendChild(typingElement);*/
+    dialogueBox.appendChild(typingElement);
     characterLeft.classList.add('nodding'); // 캐릭터에 애니메이션 클래스 추가
     characterRight.classList.add('nodding'); // 캐릭터에 애니메이션 클래스 추가
 
- /*   function type() {
+  function type() {
         if (i < dialogue.length) {
             typingElement.textContent += dialogue.charAt(i);
             i++;
@@ -42,7 +42,7 @@ function typeDialogue(dialogue, callback) {
         }
     }
 
-    type();*/
+    type();
 }
 
 function updateDialogue() {
