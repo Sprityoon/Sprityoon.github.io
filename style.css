@@ -52,6 +52,7 @@ body, html {
     text-align: left;
     display: flex;
     flex-direction: column;
+    overflow-y: auto; /* Overflow 처리 */
 }
 
 .name-tag {
@@ -61,7 +62,7 @@ body, html {
 }
 
 .dialogue-text {
-    white-space: nowrap;
+    white-space: pre-wrap;
     overflow: hidden;
     border-right: 0.15em solid orange;
 }
