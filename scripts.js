@@ -21,7 +21,6 @@ const characterRight = document.getElementById('character-right');
 
 function typeDialogue(dialogue, callback) {
     let i = 0;
-    dialogueBox.innerHTML = dialogue;
     
     dialogueBox.innerHTML = '';
     const typingElement = document.createElement('span');
